@@ -144,3 +144,16 @@ select {
     background: white;
     color: #c31432;
 }
+
+@media (max-width: 800px) {
+    .todo-input,
+    .todo-button {
+        align-content: center;
+        max-width: 50%;
+        max-height: 50%;
+    }
+
+    .todo-container {
+        text-align: center;
+    }
+}
