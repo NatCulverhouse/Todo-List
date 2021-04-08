@@ -148,12 +148,17 @@ select {
 @media (max-width: 800px) {
     .todo-input,
     .todo-button {
-        align-content: center;
+        align-content: center   ;
         max-width: 50%;
         max-height: 50%;
     }
 
-    .todo-container {
-        text-align: center;
+    .todo-button {
+       align-items: center; 
+    }
+
+    .trash-btn,
+    .complete-btn {
+        height: 70px;
     }
 }
